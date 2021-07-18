@@ -52,3 +52,10 @@ if(inputDay<=0 || inputDay> 31) {
     message.classList.add("display");
 }
 
+//Day of the week born
+var day_born = parseInt(document.getElementById("day").value);
+var month_born = parseInt(document.getElementById("month").value);
+var year_born = parseInt(document.getElementById("year").value);
+var fullDateOfBirth = new Date(day_born + "/" + month_born + "/" + year_born);
+var d = fullDateOfBirth.getDay();
+

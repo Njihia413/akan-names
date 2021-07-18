@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!-<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Form</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="images/favicon-16x16.png">
+        <link rel="stylesheet" href="bootstrap-5.0.2-dist/css/bootstrap-grid.css">
+        <link rel="stylesheet" href="css/style.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+        <script src="https://kit.fontawesome.com/c8e4d183c2.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+         <!--nav bar-->
+         <div class="container-fluid">
+            <h2>Akan<span class="color-red">Na</span><span class="color-yellow">m</span><span class="color-green">es</span></h2>
+        </div>
+
+        <!--form-->
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <p class="text-center must">Fill in all the fields with asteriks</p>
+
+                    <!--Dividing rows into three columns-->
+                    <!--Column 1-->
+                    <div class="row">
+                        <div class="col-lg-4">
+                            <div class="mb-3">
+                                <label for="year" class="form-label space">Day of Birth <span
+                                        class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="day" placeholder="08">
+                            </div>
+                        </div>
+
+                        <!--Column 2-->
+                        <div class="col-lg-4">
+                            <div class="mb-3">
+                                <label for="year" class="form-label space">Birth Month <span
+                                        class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="month" placeholder="08">
+                            </div>
+                        </div>
+
+                        <!--Column 3-->
+                        <div class="col-lg-4">
+                            <div class="mb-3">
+                                <label for="year" class="form-label space">Year of Birth <span
+                                        class="text-danger">*</span></label>
+                                <input type="number" class="form-control" id="year" placeholder="2001">
+                            </div>
+                        </div>
+
+                        <!--Gender Column-->
+                        <div class="col-lg-12">
+                            <div class="space">
+                                <span id="gender">Gender <span class="text-danger">*</span></span>
+                            </div>
+                            <div class="select">
+                                <input type="radio" name="gender" id="male" value="male">
+                                <label for="gender" class="form-label">Male</label>
+                                <input type="radio" name="gender" id="female" value="female">
+                                <label for="gender" class="form-label">Female</label>
+                            </div>
+                        </div>
+
+                        <!-- Displaying errors -->
+                        <p class="text-danger error display"></p>
+                        <button class="btn submit" type="button" id="submit">Akan
+                            Name</button>
+                    </div>
+                </div>
+        <script src="js/index.js" async defer></script>
+    </body>
+</html>

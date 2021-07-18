@@ -11,8 +11,16 @@ h2 {
     color: red;
 }
 
+.color-green {
+    color: green;
+}
+
+.color-yellow {
+    color: yellow;
+}
+
 body {
-    background-color: #0b0b0b;
+    background-color: #000000;
 }
 
 .intro {
@@ -48,8 +56,23 @@ body {
  .click-me {
      background-color: #FFFFFF;
      color: #000000;
-     font-size: 18px;
+     font-size: 20px;
      font-weight: bold;
      margin-left: 98px;
      cursor: pointer;
+     box-sizing: border-box;
+     padding: 10px;
+     text-decoration: none;
+     border-style: solid;
  }
+
+ .footer-text {
+     font-size: 15px;
+     color: #FFFFFF;
+     font-family: sans-serif;
+     font-weight: bold;
+     text-align: center;
+     margin-top: 130px;
+ }
+
+ 

@@ -20,7 +20,7 @@ h2 {
 }
 
 body {
-    background-color: #000000;
+    background-color: rgb(10, 25, 47); 
 }
 
 .intro {
@@ -58,12 +58,13 @@ body {
      color: #000000;
      font-size: 20px;
      font-weight: bold;
+     font-family: sans-serif;
      margin-left: 98px;
      cursor: pointer;
      box-sizing: border-box;
      padding: 10px;
      text-decoration: none;
-     border-style: solid;
+     border-style: none;
  }
 
  .footer-text {
@@ -75,4 +76,64 @@ body {
      margin-top: 130px;
  }
 
- 
+ /*Form Section*/
+ .must {
+    color: red;
+    text-transform: capitalize;
+    font-family: sans-serif;
+  }
+  
+  #gender {
+    font-size: 20px;
+  }
+  
+  .space {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    color: white;
+    font-size: 20px;
+    font-family: sans-serif;
+    font-weight: bold;
+    line-height: 20px;
+
+  }
+  
+  .select label {
+    margin-right: 20px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    height: 0px;
+    font-family: sans-serif;
+
+  }
+  
+  .form-control::placeholder {
+    font-size: 13px;
+    font-weight: 400;
+    color: #7c7c7c;
+  }
+  
+  .error {
+    font-size: 13px;
+    font-weight: 600;
+  }
+  
+  .text-danger {
+      color: red;
+  }
+
+  #submit{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 0px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none; 
+    margin-top: 20px;
+  }
+

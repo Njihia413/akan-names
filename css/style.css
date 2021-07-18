@@ -137,3 +137,36 @@ body {
     margin-top: 20px;
   }
 
+  #akan-partner {
+    margin-left: 380px;
+    line-height: 100px;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+    height: 0px;
+    font-family: sans-serif;
+  }
+
+  #submit2{
+    background-color: #FFFFFF;
+    color: #000000;
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 450px;
+    cursor: pointer;
+    box-sizing: border-box;
+    padding: 10px;
+    text-decoration: none;
+    border-style: none; 
+    margin-top: 0px;
+  }
+
+  #bottom {
+    font-size: 15px;
+    color: #FFFFFF;
+    font-family: sans-serif;
+    font-weight: bold;
+    margin-top: 330px;
+    line-height: 150px;
+    margin-left: 500px;
+  }

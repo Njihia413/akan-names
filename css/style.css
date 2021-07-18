@@ -12,14 +12,14 @@ h2 {
 }
 
 body {
-    background-color: #000000;
+    background-color: #0b0b0b;
 }
 
 .intro {
     font-family: sans-serif;
     color: #FFFFFF;
     font-size: 100px;
-    margin-top: 150px;
+    margin-top: 90px;
     text-align: left;
     animation-duration: 3s;
 }
@@ -35,3 +35,21 @@ body {
 .color-flag3 {
     color: green;
 }
+
+.description {
+    font-size: 25px;
+    color: #FFFFFF;
+    font-weight: bold;
+    font-family: sans-serif;
+    margin-top: -70px;
+    margin-left: 100px;  
+}
+
+ .click-me {
+     background-color: #FFFFFF;
+     color: #000000;
+     font-size: 18px;
+     font-weight: bold;
+     margin-left: 98px;
+     cursor: pointer;
+ }

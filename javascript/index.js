@@ -90,8 +90,6 @@ btnSubmit.addEventListener("click", function () {
             let divAlertError = document.querySelector("div-alert-error").textContent = 'Error displaying your name';
             divAlertError.classList.remove("hidden");
         }
-
     }
-
 });
 

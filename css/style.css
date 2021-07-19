@@ -123,6 +123,11 @@ body {
       color: red;
   }
 
+  .hidden,
+  .display {
+  display: none;
+}
+
   #submit{
     background-color: #FFFFFF;
     color: #000000;
@@ -169,4 +174,12 @@ body {
     margin-top: 330px;
     line-height: 150px;
     margin-left: 500px;
+  }
+
+  .div-alert {
+      font-size: 15px;
+      color: #FFFFFF;
+      font-weight: bold;
+      font-family: sans-serif;
+      line-height: 50px;
   }
